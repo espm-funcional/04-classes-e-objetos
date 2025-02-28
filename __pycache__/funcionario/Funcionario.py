@@ -1,5 +1,5 @@
 class Funcionario:
-    def __init__(self, nome, salario, cargo):
+    def __init__(self, nome, cargo, salario=0):
         self.nome = nome
         self._salario = salario  # um _ indica protegido
         self.__cargo = cargo # __ indica private
